@@ -1,7 +1,9 @@
+import Navbar from "../components/Navbar";
+
 const MainLayout = () => {
   return (
     <div>
-      <div className="text-xl text-green-400">MainLayout</div>
+      <Navbar />
     </div>
   );
 };
